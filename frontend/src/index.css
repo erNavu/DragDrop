@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.baseNode {
+  background-color: #430a8a;
+  color: white; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #bd7dff; 
+  border-radius: 8px;
+  font-family: 'Arial', sans-serif; 
+  font-size: 14px; 
+}
+
+.baseNode label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.baseNode input[type="text"],
+.baseNode textarea,
+.baseNode select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #bd7dff;
+  background-color:#430a8a ;
+  margin: 8px 0 ;
+}
+
+.baseNode input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.baseNode span {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.type_heading{
+  padding: 8px 12px;
+}
+.type_body{
+  padding: 12px;
+  background-color: #190c40;
+  border-radius: 0 0 6px 6px;
+}
+
+.submit_container{
+   display: flex;
+    align-items: center;
+     justify-content: center;
+      padding: 12px 4px
+}
+
+.submit_container button[type="submit"]{
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #190c40;
+  padding: 8px 12px;
+  border: 1px solid #bd7dff;
+  color: white;
+  margin:0 12px;
+}
+.submit_container button[type="submit"]:disabled {
+  cursor: not-allowed;
+  background-color: #999; /* or any other color you prefer for the disabled state */
+  opacity: 0.5; /* optional, to give a faded look */
+}
+
+.sub_heading{
+margin-bottom: 8px;
+ font-weight: 800
+}
